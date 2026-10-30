@@ -1,27 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Home</title>
-<link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&display=block" rel="stylesheet">
+<title>메뉴·가격 | 소금빵집 하루</title>
+<meta name="description" content="소금빵집 하루 메뉴와 가격: 소금빵 3,500원, 쪽파 소금빵 4,000원, 크루아상 4,200원, 바게트 4,500원, 우유 생크림빵 3,800원, 아메리카노 3,000원.">
+<link rel="canonical" href="https://solostack100.github.io/haru-bakery-demo/menu.html">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:site_name" content="소금빵집 하루">
+<meta property="og:title" content="메뉴·가격 | 소금빵집 하루">
+<meta property="og:description" content="소금빵 3,500원부터. 소금빵은 매일 오전 11시, 오후 3시 두 번 나와요.">
+<meta property="og:url" content="https://solostack100.github.io/haru-bakery-demo/menu.html">
+<meta property="og:image" content="https://solostack100.github.io/haru-bakery-demo/img/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
-<script src="js/slider.js"></script>
 </head>
 <body>
-<div class="nav">
-  <img src="img/logo.png" class="logo">
-  <div class="menu-links">
-    <div class="link" onclick="location.href='index.html'">HOME</div>
-    <div class="link" onclick="location.href='menu.html'">MENU</div>
-    <div class="link" onclick="location.href='about.html'">ABOUT</div>
+<header class="nav">
+  <a href="./" class="logo-link"><img src="img/logo.png" class="logo" width="760" height="184" alt="소금빵집 하루"></a>
+  <nav class="menu-links">
+    <a class="link" href="./">HOME</a>
+    <a class="link" href="menu.html" aria-current="page">MENU</a>
+    <a class="link" href="about.html">ABOUT</a>
+  </nav>
+</header>
+
+<main class="section">
+  <h1 class="title">메뉴</h1>
+  <div class="card">
+    <ul class="menu-list">
+      <li><span>소금빵</span><span>3,500원</span></li>
+      <li><span>쪽파 소금빵</span><span>4,000원</span></li>
+      <li><span>크루아상</span><span>4,200원</span></li>
+      <li><span>바게트</span><span>4,500원</span></li>
+      <li><span>우유 생크림빵</span><span>3,800원</span></li>
+      <li><span>아메리카노</span><span>3,000원</span></li>
+    </ul>
+    <p class="menu-note">소금빵은 오전 11시, 오후 3시 두 번 나와요</p>
   </div>
-</div>
-<div class="section">
-  <div class="title">MENU</div>
-  <img src="img/menu.png" class="photo">
-  <img src="img/display.png" class="photo">
-</div>
-<div class="footer">© 2026 All rights reserved.</div>
+  <img src="img/display.webp" class="photo" width="1200" height="800" loading="lazy" alt="소금빵, 크루아상, 바게트가 가득 놓인 하루의 유리 진열장">
+</main>
+
+<footer class="footer">
+  <address>소금빵집 하루 · 서울 마포구 예시로 12, 1층 · <a href="tel:+8220000000">02-000-0000</a></address>
+  © 2026 소금빵집 하루. All rights reserved.
+</footer>
 </body>
 </html>

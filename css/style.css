@@ -1,13 +1,39 @@
 body{margin:0;font-family:'Gowun Dodum','Noto Sans KR',sans-serif;background:#fbf6ee;color:#3b2a1a}
+a{color:inherit}
 .nav{display:flex;justify-content:space-between;align-items:center;padding:14px 28px;background:#fff;box-shadow:0 1px 6px rgba(0,0,0,.06)}
-.logo{height:46px}
+.logo-link{display:block;line-height:0}
+.logo{height:46px;width:auto}
 .menu-links{display:flex;gap:26px}
-.link{cursor:pointer;font-weight:700;letter-spacing:.08em}
+.link{cursor:pointer;font-weight:700;letter-spacing:.08em;text-decoration:none}
+.link[aria-current="page"]{color:#c8813a}
 .hero{position:relative}
-.hero img{width:100%;display:block}
-.hero-text{position:absolute;left:6%;bottom:12%;font-size:56px;color:#fff;text-shadow:0 2px 12px rgba(0,0,0,.5)}
+.hero img{width:100%;height:auto;display:block}
+.hero-text{position:absolute;left:6%;right:6%;bottom:12%;color:#fff;text-shadow:0 2px 12px rgba(0,0,0,.5)}
+.hero-text h1{margin:0;font-size:56px;font-weight:400}
+.hero-text p{margin:6px 0 0;font-size:20px}
 .section{max-width:880px;margin:48px auto;padding:0 20px;text-align:center}
-.title{font-size:32px;font-weight:800;margin-bottom:18px}
-.photo{width:100%;border-radius:14px;margin:10px 0}
-.btn{display:inline-block;margin-top:14px;padding:12px 26px;border-radius:30px;background:#c8813a;color:#fff;cursor:pointer}
-.footer{text-align:center;padding:30px;color:#9a8a78;font-size:13px}
+.title{font-size:32px;font-weight:800;margin:0 0 18px}
+.photo{width:100%;height:auto;border-radius:14px;margin:10px 0}
+.btn{display:inline-block;margin-top:14px;padding:12px 26px;border-radius:30px;background:#c8813a;color:#fff;cursor:pointer;text-decoration:none}
+.card{background:#fff8ee;border:14px solid #e9d5b9;border-radius:14px;padding:28px 40px;margin:10px 0;text-align:left}
+.card-title{font-size:26px;font-weight:800;margin:0 0 14px}
+.info{font-style:normal}
+.info-list{list-style:none;margin:0;padding:0;font-size:19px;line-height:2}
+.info-list a{text-decoration:none}
+.menu-list{list-style:none;margin:0;padding:0;font-size:22px}
+.menu-list li{display:flex;justify-content:space-between;gap:16px;padding:10px 0}
+.menu-note{text-align:center;color:#a07a55;margin:16px 0 0}
+.about{text-align:left;line-height:1.8}
+.about h2{font-size:22px;margin:32px 0 8px}
+.footer{text-align:center;padding:30px;color:#9a8a78;font-size:13px;line-height:1.7}
+.footer address{font-style:normal}
+@media (max-width:600px){
+  .nav{flex-direction:column;gap:10px;padding:12px 16px}
+  .logo{height:38px}
+  .menu-links{gap:20px}
+  .hero-text h1{font-size:34px}
+  .hero-text p{font-size:15px}
+  .card{border-width:8px;padding:20px}
+  .info-list{font-size:16px}
+  .menu-list{font-size:18px}
+}

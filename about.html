@@ -1,26 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Home</title>
-<link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&display=block" rel="stylesheet">
+<title>가게 소개 | 소금빵집 하루</title>
+<meta name="description" content="마포구 예시로의 작은 동네 빵집, 소금빵집 하루를 소개합니다. 매일 아침 반죽해 오전 11시와 오후 3시, 하루 두 번 굽는 소금빵 이야기.">
+<link rel="canonical" href="https://solostack100.github.io/haru-bakery-demo/about.html">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:site_name" content="소금빵집 하루">
+<meta property="og:title" content="가게 소개 | 소금빵집 하루">
+<meta property="og:description" content="매일 아침 반죽해 하루 두 번 굽는 마포구 소금빵집 이야기.">
+<meta property="og:url" content="https://solostack100.github.io/haru-bakery-demo/about.html">
+<meta property="og:image" content="https://solostack100.github.io/haru-bakery-demo/img/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
-<script src="js/slider.js"></script>
 </head>
 <body>
-<div class="nav">
-  <img src="img/logo.png" class="logo">
-  <div class="menu-links">
-    <div class="link" onclick="location.href='index.html'">HOME</div>
-    <div class="link" onclick="location.href='menu.html'">MENU</div>
-    <div class="link" onclick="location.href='about.html'">ABOUT</div>
-  </div>
-</div>
-<div class="section">
-  <div class="title">ABOUT</div>
-  <p>페이지 준비중입니다.</p>
-</div>
-<div class="footer">© 2026 All rights reserved.</div>
+<header class="nav">
+  <a href="./" class="logo-link"><img src="img/logo.png" class="logo" width="760" height="184" alt="소금빵집 하루"></a>
+  <nav class="menu-links">
+    <a class="link" href="./">HOME</a>
+    <a class="link" href="menu.html">MENU</a>
+    <a class="link" href="about.html" aria-current="page">ABOUT</a>
+  </nav>
+</header>
+
+<main class="section about">
+  <h1 class="title">하루 이야기</h1>
+  <p>소금빵집 하루는 서울 마포구 예시로에 있는 작은 동네 빵집입니다. 가게 이름처럼 하루를 시작하는 아침, 그리고 출출해지는 오후에 따뜻한 빵 하나를 건네고 싶어서 문을 열었습니다.</p>
+
+  <h2>하루에 두 번, 갓 구운 소금빵</h2>
+  <p>대표 메뉴인 소금빵은 매일 아침 반죽을 시작해 오전 11시와 오후 3시, 하루 두 번 구워 냅니다. 갓 나온 소금빵은 버터가 녹아든 바닥이 바삭하고 속은 촉촉하며, 위에 올린 굵은 소금이 버터의 고소함을 한층 살려 줍니다. 시간이 조금 지나도 맛있지만, 나오는 시간에 맞춰 오시면 가장 따뜻한 빵을 드실 수 있어요.</p>
+
+  <h2>소금빵 말고도</h2>
+  <p>쪽파를 듬뿍 넣은 쪽파 소금빵, 결이 살아 있는 크루아상, 겉은 단단하고 속은 쫄깃한 바게트, 부드러운 우유 생크림빵을 함께 굽습니다. 빵과 잘 어울리는 아메리카노도 준비해 두었습니다. 전체 메뉴와 가격은 <a href="menu.html">메뉴 페이지</a>에서 확인하실 수 있습니다.</p>
+
+  <h2>찾아오시는 길</h2>
+  <p>예시역 2번 출구에서 걸어서 3분 거리, 건물 1층에 있습니다. 화요일부터 일요일까지 오전 8시부터 오후 8시까지 문을 열고, 월요일은 쉽니다. 전화 문의는 <a href="tel:+8220000000">02-000-0000</a>으로 해 주세요.</p>
+</main>
+
+<footer class="footer">
+  <address>소금빵집 하루 · 서울 마포구 예시로 12, 1층 · <a href="tel:+8220000000">02-000-0000</a></address>
+  © 2026 소금빵집 하루. All rights reserved.
+</footer>
 </body>
 </html>
