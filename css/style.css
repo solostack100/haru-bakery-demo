@@ -1,0 +1,13 @@
+body{margin:0;font-family:'Gowun Dodum','Noto Sans KR',sans-serif;background:#fbf6ee;color:#3b2a1a}
+.nav{display:flex;justify-content:space-between;align-items:center;padding:14px 28px;background:#fff;box-shadow:0 1px 6px rgba(0,0,0,.06)}
+.logo{height:46px}
+.menu-links{display:flex;gap:26px}
+.link{cursor:pointer;font-weight:700;letter-spacing:.08em}
+.hero{position:relative}
+.hero img{width:100%;display:block}
+.hero-text{position:absolute;left:6%;bottom:12%;font-size:56px;color:#fff;text-shadow:0 2px 12px rgba(0,0,0,.5)}
+.section{max-width:880px;margin:48px auto;padding:0 20px;text-align:center}
+.title{font-size:32px;font-weight:800;margin-bottom:18px}
+.photo{width:100%;border-radius:14px;margin:10px 0}
+.btn{display:inline-block;margin-top:14px;padding:12px 26px;border-radius:30px;background:#c8813a;color:#fff;cursor:pointer}
+.footer{text-align:center;padding:30px;color:#9a8a78;font-size:13px}
